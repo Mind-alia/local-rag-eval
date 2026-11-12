@@ -1,0 +1,94 @@
+[
+  {
+    "id": "q01",
+    "language": "fr",
+    "question": "Quelle empreinte cagibi contrôle-t-il avant de supprimer un original ?",
+    "expected_file": "demo-corpus/presentation.md",
+    "keywords": [
+      "SHA-256"
+    ],
+    "evidence": "Chaque archive est accompagnée d'une empreinte SHA-256"
+  },
+  {
+    "id": "q02",
+    "language": "fr",
+    "question": "Comment vérifier que cagibi est bien installé ?",
+    "expected_file": "demo-corpus/docs/installation.md",
+    "keywords": [
+      "--version"
+    ],
+    "evidence": "Vérifier l'installation avec `cagibi --version`"
+  },
+  {
+    "id": "q03",
+    "language": "fr",
+    "question": "Quelle commande remet en place les fichiers d'une archive, et quelle option n'en restaure qu'un seul ?",
+    "expected_file": "demo-corpus/docs/commandes.md",
+    "keywords": [
+      "cagibi restaure",
+      "--fichier"
+    ],
+    "evidence": "Avec `--fichier <chemin>`, seul ce fichier est restauré"
+  },
+  {
+    "id": "q04",
+    "language": "fr",
+    "question": "Après combien de jours sans modification un fichier est-il oublié, par défaut ?",
+    "expected_file": "demo-corpus/docs/configuration.md",
+    "keywords": [
+      "180"
+    ],
+    "evidence": "un fichier est oublié après 180 jours sans modification"
+  },
+  {
+    "id": "q05",
+    "language": "fr",
+    "question": "Combien de temps une extension a-t-elle pour rendre la main ?",
+    "expected_file": "demo-corpus/plugins/configuration.md",
+    "keywords": [
+      "10 secondes"
+    ],
+    "evidence": "Une extension doit rendre la main en moins de 10 secondes"
+  },
+  {
+    "id": "q06",
+    "language": "en",
+    "question": "Which exit code does cagibi return when the disk is full?",
+    "expected_file": "demo-corpus/docs/faq.md",
+    "keywords": [
+      "75"
+    ],
+    "evidence": "renvoie le code de sortie 75"
+  },
+  {
+    "id": "q07",
+    "language": "en",
+    "question": "In which version was the --exclure option added?",
+    "expected_file": "demo-corpus/versions.md",
+    "keywords": [
+      "1.2"
+    ],
+    "evidence": "Nouvelle option `--exclure`, répétable"
+  },
+  {
+    "id": "q08",
+    "language": "fr",
+    "question": "Combien de personnes utilisent cagibi aujourd'hui ?",
+    "expected_file": null,
+    "keywords": []
+  },
+  {
+    "id": "q09",
+    "language": "fr",
+    "question": "Quelle est la date de sortie de la version 1.0.0 ?",
+    "expected_file": null,
+    "keywords": []
+  },
+  {
+    "id": "q10",
+    "language": "en",
+    "question": "Does cagibi run on Windows?",
+    "expected_file": null,
+    "keywords": []
+  }
+]

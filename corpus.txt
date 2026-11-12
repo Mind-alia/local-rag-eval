@@ -1,0 +1,7 @@
+demo-corpus/presentation.md
+demo-corpus/docs/installation.md
+demo-corpus/docs/commandes.md
+demo-corpus/docs/configuration.md
+demo-corpus/docs/faq.md
+demo-corpus/plugins/configuration.md
+demo-corpus/versions.md

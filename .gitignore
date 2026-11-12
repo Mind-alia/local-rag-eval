@@ -1,0 +1,16 @@
+# Written by eval.py: results, rescored copies, embedding cache, atomic-write temporaries
+results-*.json
+embeddings-cache.json
+*.tmp
+
+# Left behind only by an interrupted test run
+tmp*/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Systems
+.DS_Store
+Thumbs.db
