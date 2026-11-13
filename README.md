@@ -135,3 +135,7 @@ The code is the bench's final version, with three changes:
 - `corpus.txt` and `questions.json` are read as UTF-8 on every system, for the French questions.
 - Test fixtures that came from the private corpus were replaced with neutral strings; the tests
   check the same behaviour.
+
+## License
+
+[MIT](LICENSE).
