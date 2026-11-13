@@ -1,5 +1,7 @@
 # local-rag-eval
 
+[![CI](https://github.com/Mind-alia/local-rag-eval/actions/workflows/ci.yml/badge.svg)](https://github.com/Mind-alia/local-rag-eval/actions/workflows/ci.yml)
+
 A small bench in plain Python (standard library only) that checks a local RAG setup. Does a local
 model answer questions about a set of Markdown files with the right facts and the right
 citations? Does it say `JE NE SAIS PAS` (I don't know) when the files do not hold the answer?
@@ -133,5 +135,3 @@ The code is the bench's final version, with three changes:
 - `corpus.txt` and `questions.json` are read as UTF-8 on every system, for the French questions.
 - Test fixtures that came from the private corpus were replaced with neutral strings; the tests
   check the same behaviour.
-
-License: to be chosen
